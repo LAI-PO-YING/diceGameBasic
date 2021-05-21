@@ -13,6 +13,7 @@
 		CE7C31B42655F56B0062D8EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7C31B22655F56B0062D8EE /* Main.storyboard */; };
 		CE7C31B62655F56E0062D8EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7C31B52655F56E0062D8EE /* Assets.xcassets */; };
 		CE7C31B92655F56E0062D8EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7C31B72655F56E0062D8EE /* LaunchScreen.storyboard */; };
+		CE7C31C126560F580062D8EE /* diceSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE7C31C026560F580062D8EE /* diceSound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CE7C31B52655F56E0062D8EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE7C31B82655F56E0062D8EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE7C31BA2655F56E0062D8EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7C31C026560F580062D8EE /* diceSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = diceSound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		CE7C31AB2655F56B0062D8EE /* diceGameBasic */ = {
 			isa = PBXGroup;
 			children = (
+				CE7C31C026560F580062D8EE /* diceSound.mp3 */,
 				CE7C31AC2655F56B0062D8EE /* AppDelegate.swift */,
 				CE7C31AE2655F56B0062D8EE /* SceneDelegate.swift */,
 				CE7C31B02655F56B0062D8EE /* ViewController.swift */,
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE7C31B92655F56E0062D8EE /* LaunchScreen.storyboard in Resources */,
+				CE7C31C126560F580062D8EE /* diceSound.mp3 in Resources */,
 				CE7C31B62655F56E0062D8EE /* Assets.xcassets in Resources */,
 				CE7C31B42655F56B0062D8EE /* Main.storyboard in Resources */,
 			);
